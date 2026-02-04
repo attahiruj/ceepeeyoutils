@@ -1,0 +1,15 @@
+{
+  "appId": "com.hiro.ceepeeyoutils",
+  "files": ["dist/core", "dist/ui"],
+  "icon": "./icon.png",
+  "mac": {
+    "target": "dmg"
+  },
+  "linux": {
+    "target": "AppImage",
+    "category": "Utility"
+  },
+  "win": {
+    "target": ["portable", "msi"]
+  }
+}
