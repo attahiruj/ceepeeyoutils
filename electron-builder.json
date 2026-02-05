@@ -1,6 +1,7 @@
 {
   "appId": "com.hiro.ceepeeyoutils",
   "files": ["dist/core", "dist/ui"],
+  "extraResources": ["./dist/core/preload.cjs"],
   "icon": "./icon.png",
   "mac": {
     "target": "dmg"
